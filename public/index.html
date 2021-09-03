@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+</html>
+
+<body class="bg-gray-200">
+
+
+  <!----------------------------------------------------- NAV START---------------------------------------------------->
+
+
+  <div class="grid md:grid-cols-4">
+    <div class="md:flex md:justify-start">
+      <nav class="text-right">
+        <div class="px-4 cursor-pointer md:hidden flex justify-end py-4" id="burger">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+
+        </div>
+        <ul class="text-gray-600 text-md p-4 hidden md:block" id="menu">
+          <li class="py-1">
+            <a href="index.html" class="hover:text-purple-500 px-4 flex justify-end">
+              <span>Home</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+            </a>
+
+
+          </li>
+          <li class="py-1">
+            <a href="about.html" class="hover:text-purple-500 px-4 flex justify-end">
+              <span>About</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </a>
+
+
+          </li>
+          <li class="py-1">
+            <a href="#" class="hover:text-purple-500 px-4 flex justify-end">
+              <span>Contact</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+            </a>
+
+
+          </li>
+          <li class="py-1">
+            <a href="#" class="hover:text-purple-500 px-4 flex justify-end">
+              <span>Blog</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!---------------------------------------------------------- NAV END ------------------------------------------------------->
+
+
+  <!----------------------------------------------------- BODY TEXT------------------------------------------------------- -->
+  <main class="bg-gray-100">
+    <header class="py-16 px-6 bg-gray-100">
+      <h2 class="my-8 text-3xl text-gray-600 mb-1 flex justify-center">Hello, I'm Sofia</h2>
+      <h2 class="my-8 text-3xl text-purple-500 font-semibold mb-1 flex justify-center">Software Engineer</h2>
+      <h3 class="my-8 text-2xl text-gray-600 mb-1 flex justify-center">Making Things Look Good.</h3>
+
+
+      <!------------------------ BUTTON COMPONENT----------------------- -->
+
+      <div class="my-8 flex justify-center relative">
+        <div class="text-purple-500 rounded-full py-2 px-3 cursor-pointer bg-purple-200 absolute"><a href="#"
+            class="hover:text-white">Contact Me</a></div>
+      </div>
+    </header>
+
+
+
+    <div>
+      <h2 class="text-gray-600 font-semibold pb-2 px-6 m-2 border-b">Latest Blog Posts</h2>
+    </div>
+
+
+
+
+
+    <!------------------------------------------------- BLOG CARDS START -------------------------------------------------------->
+
+    <div class="grid lg:grid-cols-3">
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="flex justify-items-start bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-xl cursor-pointer
+    ">
+          <img src="img/Assets/home-1.png" alt="home-people" class="w-full h-32 sm:h-48 object-cover">
+          <div class="m-4">
+            <span class="text-gray-600 font-semibold">The importance of mobile first design</span>
+          </div>
+          <div class="my-2 mx-4 p-2 text-gray-600 text-xs rounded bg-purple-200 rounded-full absolute">
+            <span>5 MINS</span>
+          </div>
+        </div>
+      </main>
+
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="flex justify-items-start bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-xl cursor-pointer
+    ">
+          <img src="img/Assets/home-2.png" alt="home-people" class="w-full h-32 sm:h-48 object-cover">
+          <div class="m-4">
+            <span class="text-gray-600 font-semibold">Tips on collaborating in the tech space</span>
+          </div>
+          <div class="my-2 mx-4 p-2 text-gray-600 text-xs rounded bg-purple-200 rounded-full absolute">
+            <span>7 MINS</span>
+          </div>
+        </div>
+      </main>
+
+
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="flex justify-items-start bg-white rounded-md overflow-hidden shadow-md relative hover:shadow-xl cursor-pointer
+    ">
+          <img src="img/Assets/home-3.png" alt="home-people" class="w-full h-32 sm:h-48 object-cover">
+          <div class="m-4">
+            <span class="text-gray-600 font-semibold">What to expect in your first technical interview</span>
+          </div>
+          <div class="my-2 mx-4 p-2 text-gray-600 text-xs rounded bg-purple-200 rounded-full absolute">
+            <span>4 MINS</span>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!---------------------------------------------------------- BLOG CARDS END ---------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
