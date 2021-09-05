@@ -1,0 +1,48 @@
+commit e31f28400efd2ad9054c85275fd0b2763bc6bfd6
+Merge: c118690 bb4bf9c
+Author: sofia_frugone <sofiabellaf2000@gmail.com>
+Date:   Sun Sep 5 14:12:00 2021 +1000
+
+    final changes
+
+commit c118690d659e9e0f8e5f657f4756bc7ba55155f2
+Author: sofia_frugone <sofiabellaf2000@gmail.com>
+Date:   Sun Sep 5 14:09:45 2021 +1000
+
+    sri
+
+commit bb4bf9c5994bb152b7a673c3c7adeec12c1ed18a
+Author: sofia-frugone <88522139+sofia-frugone@users.noreply.github.com>
+Date:   Sun Sep 5 13:27:06 2021 +1000
+
+    Update README.md
+
+commit 27a44394f9ce55b016e07b55181c2204642605bb
+Author: sofia_frugone <sofiabellaf2000@gmail.com>
+Date:   Sun Sep 5 13:19:46 2021 +1000
+
+    updated blog links
+
+commit 4cdfce4eadbefd58819ae36bf9319d49739e4837
+Author: sofia_frugone <sofiabellaf2000@gmail.com>
+Date:   Sun Sep 5 12:06:26 2021 +1000
+
+    readme update
+
+commit a89a4c71cd698f7ee94eb28f24916fc887114e30
+Author: sofia_frugone <sofiabellaf2000@gmail.com>
+Date:   Sat Sep 4 13:31:06 2021 +1000
+
+    blog page
+
+commit f9a2646f64062336759c8b4c58a00a0c699d5a4c
+Author: sofia_frugone <sofiabellaf2000@gmail.com>
+Date:   Fri Sep 3 22:33:30 2021 +1000
+
+    footer update
+
+commit abaef0f50ed511a51f253994d9b30af4f452fe32
+Author: sofia_frugone <sofiabellaf2000@gmail.com>
+Date:   Fri Sep 3 17:56:09 2021 +1000
+
+    initial commit
